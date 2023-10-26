@@ -30,7 +30,8 @@
         android:layout_gravity="center"
         android:onClick="btnPlay"
         android:background="@drawable/play_circle_24"
-        android:contentDescription="icono Play Video"/>
+        android:contentDescription="icono Play Video">
+    </ImageButton>
 
     <ImageButton
         android:id="@+id/imageButtonPause"
@@ -40,5 +41,7 @@
         android:onClick="btnPause"
         android:visibility="gone"
         android:background="@drawable/pause_circle_24"
-        android:contentDescription="icono Play Video"/>
+        android:contentDescription="icono Play Video">
+    </ImageButton>
+
 </FrameLayout>

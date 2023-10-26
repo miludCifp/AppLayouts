@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityRelative">
+
+    <ImageView
+        android:id="@+id/iconoCerrar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/cerrar_icono"
+        android:onClick="botonCerrar"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/fotoUsuario"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/iconoCerrar"
+        android:background="@drawable/avatar1_chico"/>
+
+    <TextView
+        android:id="@+id/tvLoginNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/fotoUsuario"
+        android:text="Nombre de Usuario" />
+
+    <TextView
+        android:id="@+id/tvLoginEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/tvLoginNombre"
+        android:text="Correo Electronico" />
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/tvLoginEmail"/>
+</RelativeLayout>

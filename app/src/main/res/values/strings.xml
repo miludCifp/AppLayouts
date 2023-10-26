@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">AppLayout</string>
+
+    <string-array name="datos_lista">
+        <item>Sistemas Informaticos</item>
+        <item>Bases de Datos</item>
+        <item>Programación</item>
+        <item>Lenguajes de marcas</item>
+        <item>Entornos de desarollo</item>
+        <item>FOL</item>
+        <item>Sistemas informaticos</item>
+        <item>Bases de Datos</item>
+        <item>Programación</item>
+        <item>Lenguajes de marcas</item>
+        <item>Entornos de desarollo</item>
+        <item>FOL</item>
+        <item>Sistemas Informaticos</item>
+    </string-array>
 </resources>

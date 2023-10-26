@@ -30,7 +30,9 @@ public class ActivityFrame extends AppCompatActivity {
         //Si el video esta en marcha le damos el estado de Pause.
         // en caso contrario ponemos en start.
 
-        if (velas.isPlaying()){
+        //velas.start();
+
+        if (velas.isActivated()){
             velas.resume();
         }else {
             velas.start();
