@@ -29,4 +29,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, ActivityTable.class);
         startActivity(i);
     }
+
+    public void botonGrid(View v){
+        Intent i = new Intent(this, ActivityGrid.class);
+        startActivity(i);
+    }
 }
